@@ -1,64 +1,71 @@
+$(document).ready(function () {
+  $('.burger__menu').click(function (event) {
+    $('.burger__menu, .header_cap_navigation_menu').toggleClass('active');
+  });
+});
+
+
 // Эта функция нужна для слайдера
-$(document).ready(function(){
+$(document).ready(function () {
   $('.slider').slick({
-    arrows:true,
-    dots:true,
-    adaptiveHeight:true,
-    slidesToShow:1,
-    slidesToScroll:1,
-    speed:1500,
-    autoplay:true,
-    autoplaySpeed:2000,
-    pauseOnHover:true,
-    draggable:true,
-    centerMode:true,
-    fade:true,
-    waitForAnimate:false
+    arrows: true,
+    dots: true,
+    adaptiveHeight: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    speed: 1500,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
+    draggable: true,
+    centerMode: true,
+    fade: true,
+    waitForAnimate: false
   });
 });
 //----------------
 
 //Плавный скролл до объекта
-$(document).ready(function(){
-   $("#menu").on("click","a", function (event) {
-       event.preventDefault();
-       var id  = $(this).attr('href'),
-           top = $(id).offset().top;
-       $('body,html').animate({scrollTop: top}, 1200);
-   });
+$(document).ready(function () {
+  $("#menu").on("click", "a", function (event) {
+    event.preventDefault();
+    var id = $(this).attr('href'),
+      top = $(id).offset().top;
+    $('body,html').animate({ scrollTop: top }, 1200);
+  });
 });
 //----------------
 
 //Функция кнопки "Вверх"
-(function($) {
-$(function() {
+(function ($) {
+  $(function () {
 
-  $('#up').click(function() {
-    $('body,html').animate({scrollTop:0},700);
-    return false;
+    $('#up').click(function () {
+      $('body,html').animate({ scrollTop: 0 }, 700);
+      return false;
+    })
+
   })
-
-})
 })(jQuery);
 //----------------
 
 
-$(document).ready(function(){
-    var typed = new Typed('.hii', {
-      strings: ["Привет !", "Hi !", "Halo !", "Прывітанне !", "こんにちは !", "Bonjour !"],
-      typeSpeed:60,
-      backSpeed:50,
-      loop: true
-    });
+$(document).ready(function () {
+  var typed = new Typed('.hii', {
+    strings: ["Привет !", "Hi !", "Halo !", "Прывітанне !", "こんにちは !", "Bonjour !"],
+    typeSpeed: 60,
+    backSpeed: 50,
+    loop: true
+  });
 });
 
-$(document).ready(function(){
-    var typed = new Typed('.coopr', {
-      strings: ["dbadinov@mail.ru", "DenisBadinov"],
-      typeSpeed:80,
-      backSpeed:50,
-      loop: true
-    });
+$(document).ready(function () {
+  var typed = new Typed('.coopr', {
+    strings: ["dbadinov@mail.ru", "DenisBadinov"],
+    typeSpeed: 80,
+    backSpeed: 50,
+    loop: true
+  });
 });
 
 AOS.init({
@@ -82,4 +89,5 @@ AOS.init({
   mirror: false, // whether elements should animate out while scrolling past them
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
-})
+});
+

@@ -81,6 +81,11 @@ body footer {
   align-items: center;
 }
 
+.header_cap_logo {
+  position: relative;
+  z-index: 1;
+}
+
 .header_cap_column {
   flex: 0 1 50%;
 }
@@ -92,6 +97,10 @@ body footer {
 
 .header_cap_logo__list li {
   flex: 0 1 auto;
+}
+
+.navigation_burger {
+  display: none;
 }
 
 .header_cap_logo__list h1 {
