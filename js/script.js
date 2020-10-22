@@ -1,6 +1,7 @@
 $(document).ready(function () {
   $('.burger__menu').click(function (event) {
     $('.burger__menu, .header_cap_navigation_menu_menu__list').toggleClass('active');
+    $('body').toggleClass('lock');
   });
 });
 
