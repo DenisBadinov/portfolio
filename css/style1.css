@@ -209,7 +209,6 @@ body footer {
   bottom: 15px;
   justify-content: center;
   text-align: center;
-  font-size: 18px;
   font-size: calc(13px + 5 * (100vw / 1920));
   font-weight: 400;
   left: 50%;

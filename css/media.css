@@ -307,7 +307,7 @@
   }
 
   .listay {
-    font-size: calc(13px + (5 + 5 * 0.7) * ((100vw - 320px) / 1920));
+    font-size: calc(10px + (8 + 8 * 0.7) * ((100vw - 320px) / 1920));
   }
 
   .header_cap_column1 {
