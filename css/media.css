@@ -144,7 +144,7 @@
   }
 
   .header_cap {
-    padding: 20px 0px;
+    padding: 15px 0px;
   }
 
   .header_cap_logo__list h1 {
@@ -155,7 +155,7 @@
   }
 
   #logo__link {
-    padding: 0px 20px;
+    padding: 0px 30px;
     font-size: 22px;
     border-top: 7px solid #5ca0f0;
     line-height: 45px;
