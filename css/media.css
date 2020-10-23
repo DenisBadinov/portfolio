@@ -307,7 +307,7 @@
   }
 
   .listay {
-    bottom: 40px;
+    bottom: 75px;
     font-size: calc(10px + (8 + 8 * 0.7) * ((100vw - 320px) / 1920));
   }
 
