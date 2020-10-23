@@ -299,6 +299,7 @@
 
   .hi {
     font-size: calc(13px + (12 + 12 * 0.7) * ((100vw - 320px) / 1920));
+    line-height: calc(15px + (25 + 25 * 0.7) * ((100vw - 320px) / 1920));
   }
 
   .text p {
@@ -306,6 +307,7 @@
   }
 
   .listay {
+    bottom: 40px;
     font-size: calc(10px + (8 + 8 * 0.7) * ((100vw - 320px) / 1920));
   }
 
@@ -327,11 +329,9 @@
 /*===============================================*/
 
 @media (max-width: 425px) {
-
   #logo__link {
     border: none;
     line-height: 52px;
     height: 52px;
   }
-
 }

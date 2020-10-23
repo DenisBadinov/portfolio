@@ -77,6 +77,10 @@ body footer {
 }
 
 .header_cap_content {
+  justify-content: space-between;
+}
+
+.header_cap_content {
   display: flex;
   align-items: center;
 }
@@ -183,6 +187,7 @@ body footer {
 
 .header_cap_column4 {
   flex: 0 1 60%;
+  padding-right: 1%;
 }
 
 .bigD {
@@ -196,7 +201,7 @@ body footer {
 .hi {
   font-weight: 100;
   font-size: calc(13px + 12 * (100vw / 1920));
-  padding-bottom: 0.2%;
+  line-height: calc(15px + 25 * (100vw / 1920));
 }
 
 .text p {
