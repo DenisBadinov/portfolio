@@ -11,7 +11,7 @@ $(document).ready(function () {
   $('.slider').slick({
     arrows: true,
     dots: true,
-    adaptiveHeight: true,
+    adaptiveHeight: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     speed: 1500,
@@ -21,7 +21,67 @@ $(document).ready(function () {
     draggable: true,
     centerMode: true,
     fade: true,
-    waitForAnimate: false
+    waitForAnimate: true
+  });
+  $('.slider_1440').slick({
+    arrows: true,
+    dots: true,
+    adaptiveHeight: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    speed: 1500,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
+    draggable: true,
+    centerMode: true,
+    fade: true,
+    waitForAnimate: true
+  });
+  $('.slider_1024').slick({
+    arrows: false,
+    dots: true,
+    adaptiveHeight: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    speed: 1500,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
+    draggable: true,
+    centerMode: true,
+    fade: true,
+    waitForAnimate: true
+  });
+  $('.slider_680').slick({
+    arrows: false,
+    dots: false,
+    adaptiveHeight: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    speed: 1500,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
+    draggable: true,
+    centerMode: true,
+    fade: true,
+    waitForAnimate: true,
+  });
+  $('.slider_424').slick({
+    arrows: false,
+    dots: false,
+    adaptiveHeight: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    speed: 1500,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
+    draggable: true,
+    centerMode: true,
+    fade: true,
+    waitForAnimate: true,
   });
 });
 //----------------

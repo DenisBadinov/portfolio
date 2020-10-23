@@ -241,6 +241,10 @@ body footer {
   }
 }
 
+#slider-section {
+}
+
 main {
   height: 1000px;
+  padding: 60px 0px;
 }
