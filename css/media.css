@@ -1,0 +1,362 @@
+@media (min-width: 4000px) {
+  .bigD {
+    /*font-size: 400px;*/
+    font-size: 670px;
+  }
+
+  .hi {
+    font-size: 38px;
+    line-height: 67px;
+  }
+  
+  .text p {
+    font-size: 56px;
+  }
+}
+
+/*===============================================*/
+
+@media (min-height: 1201px) {
+  body header {
+    background-color: #161616;
+    height: 1200px;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+/*===============================================*/
+
+@media (min-width: 1440px) {
+  /* < header >*/
+  .container {
+    max-width: 1720px;
+    padding: 0px 100px;
+  }
+
+  .header_cap {
+    padding: 40px 0px 40px 0px;
+  }
+
+  .fiiirst {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 1440px;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+  }
+
+  .first_section {
+    max-width: 1440px;
+  }
+
+  .header_cap_column1 {
+    flex: 0 1 35%;
+  }
+
+  .header_cap_column2 {
+    flex: 0 1 50%;
+  }
+
+  /* < /header >*/
+}
+
+/*===============================================*/
+
+@media (max-width: 1439px) {
+  /* < header >*/
+  .container {
+    max-width: 1024px;
+  }
+
+  .header_cap {
+    padding: 30px 0px;
+  }
+
+  .header_cap_logo__list h1 {
+    font-size: 60px;
+    width: 65px;
+    line-height: 65px;
+    height: 65px;
+  }
+
+  #logo__link {
+    padding: 0px 20px;
+    font-size: 25px;
+    border-top: 7px solid #5ca0f0;
+    line-height: 58px;
+    height: 58px;
+  }
+
+  .menu__link {
+    height: 58px;
+    font-size: 25px;
+    line-height: 58px;
+  }
+
+  #contacts {
+    border-right: 7px solid #5ca0f0;
+  }
+
+  .header_cap_navigation_menu_menu__list {
+    border-bottom: 7px solid #5ca0f0;
+  }
+
+  /* < /header >*/
+}
+
+/*===============================================*/
+
+@media (max-width: 1104px) {
+  /* < header >*/
+  .container {
+    max-width: 768px;
+    padding: 0px 40px;
+  }
+
+  .header_cap {
+    padding: 20px 0px;
+  }
+
+  .header_cap_logo__list h1 {
+    font-size: 45px;
+    width: 50px;
+    line-height: 50px;
+    height: 50px;
+  }
+
+  #logo__link {
+    border-top: 7px solid #5ca0f0;
+    padding: 0px 15px;
+    font-size: 22px;
+    line-height: 43px;
+    height: 43px;
+  }
+
+  .menu__link {
+    font-size: 22px;
+    line-height: 43px;
+    height: 43px;
+    padding: 0px 15px;
+  }
+
+  #contacts {
+    border-right: 7px solid #5ca0f0;
+  }
+
+  .header_cap_navigation_menu_menu__list {
+    border-bottom: 7px solid #5ca0f0;
+  }
+}
+
+/*===============================================*/
+
+@media (max-width: 848px) {
+  .container {
+    max-width: 768px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px 20px;
+  }
+
+  .header_cap {
+    padding: 15px 0px;
+  }
+
+  .header_cap_logo__list h1 {
+    font-size: 43px;
+    width: 52px;
+    line-height: 52px;
+    height: 52px;
+  }
+
+  #logo__link {
+    padding: 0px 30px;
+    font-size: 22px;
+    border-top: 7px solid #5ca0f0;
+    line-height: 45px;
+    height: 45px;
+  }
+
+  .menu__link {
+    height: 45px;
+    font-size: 22px;
+    line-height: 45px;
+  }
+}
+
+/*===============================================*/
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 728px;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .burger__menu {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    float: right;
+    z-index: 4;
+    right: 25px;
+  }
+
+  .burger__menu span {
+    position: absolute;
+    background-color: white;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+  }
+
+  .burger__menu:before,
+  .burger__menu:after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    transition: all 0.3s ease 0s;
+  }
+
+  .burger__menu:before {
+    top: 0px;
+  }
+
+  .burger__menu:after {
+    bottom: 0px;
+  }
+
+  .burger__menu.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+
+  .burger__menu.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+
+  .burger__menu.active span {
+    transform: scale(0);
+  }
+
+  .header_cap_navigation_menu_menu__list {
+    position: fixed;
+    top: -120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1e1e;
+    padding: 100px 0px 0px 0px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    overflow: auto;
+  }
+
+  .header_cap_navigation_menu_menu__list.active {
+    top: 0;
+  }
+
+  .header_cap_navigation_menu_menu__list a {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+    line-height: 80px;
+    height: 80px;
+  }
+
+  .menu__link:hover {
+    color: #f0f0f0;
+    background: #1f1e1e;
+  }
+
+  #contacts {
+    border: none;
+  }
+
+  .header_cap_content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    padding: 12px;
+  }
+
+  .header_cap_content:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #161616;
+    z-index: 1;
+  }
+
+  body.lock {
+    overflow: hidden;
+  }
+
+  .fiiirst {
+    width: 100%;
+  }
+
+  .bigD {
+    font-size: calc(150px + (250 + 250 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .hi {
+    font-size: calc(13px + (12 + 12 * 0.7) * ((100vw - 320px) / 1920));
+    line-height: calc(15px + (25 + 25 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .text p {
+    font-size: calc(13px + (22 + 22 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .listay {
+    bottom: 75px;
+    font-size: calc(10px + (8 + 8 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .header_cap_column1 {
+    flex: 0 1 60%;
+  }
+
+  .header_cap_column2 {
+    flex: 0 1 40%;
+  }
+
+  #logo__link {
+    padding: 0px 15px;
+    font-size: 19px;
+    width: 100%;
+    color: black;
+    background: #f0f0f0;
+    border-radius: 0px 0px 16px 0px;
+  }
+
+  #logo__link:hover {
+    color: black;
+    background: #f0f0f0;
+    border-radius: 0px 0px 16px 0px;
+  }
+}
+
+/*===============================================*/
+
+@media (max-width: 425px) {
+  #logo__link {
+    border: none;
+    line-height: 52px;
+    height: 52px;
+  }
+}
