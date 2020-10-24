@@ -43,6 +43,7 @@ h2 {
 }
 
 body {
+  height: 100%;
   margin: 0px auto;
   padding: 0px 0px 0px 0px;
   font-family: "Roboto", sans-serif;
@@ -51,6 +52,7 @@ body {
 }
 
 body header {
+  height: 100%;
   background-color: #161616;
   height: 100vh;
   padding: 0px 0px 0px 0px;
@@ -211,7 +213,7 @@ body footer {
 
 .listay {
   position: absolute;
-  bottom: 15px;
+  bottom: 60px;
   justify-content: center;
   text-align: center;
   font-size: calc(13px + 5 * (100vw / 1920));
@@ -242,9 +244,69 @@ body footer {
 }
 
 #slider-section {
+  background-color: #f0f0f0;
+  padding: 60px 0px;
+}
+
+#all_projects {
+  margin: 20px auto 0px auto;
+  text-align: center;
+  width: calc(274px + 222 * (100vw / 1920));
+}
+
+#all_projects a {
+  font-size: calc(14px + 20 * (100vw / 1920));
+  padding: calc(10px + 5 * (100vw / 1920));
+  background: #161616;
+  border: 2px solid #000;
+  display: block;
+  transition: all 0.4s;
+}
+
+#all_projects a:hover {
+  transition: all 0.6s;
+  border-radius: 16px 0px 16px 0px;
+  background: #000;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#aboutme_section {
+  min-height: 100vh;
+  background-color: #161616;
+  display: flex;
+  padding: 0;
+}
+
+.aboutme__body {
+  flex: 1 1 auto;
+  width: 100%;
+  max-width: 1720px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(13px + 23 * (100vw / 1920));
+  padding: 0px 10px;
+}
+
+.aboutme__text1 {
+  margin: 60px 0px 30px 0px;
+}
+
+.aboutme__text2 {
+  margin: 30px 0px;
+}
+
+.aboutme__skills {
+  margin: 30px 0px 60px 0px;
 }
 
 main {
   height: 1000px;
-  padding: 60px 0px;
 }
