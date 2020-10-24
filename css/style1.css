@@ -189,7 +189,7 @@ body footer {
 
 .header_cap_column4 {
   flex: 0 1 60%;
-  padding-right: 6%;
+  padding-right: 5%;
 }
 
 .bigD {
@@ -280,6 +280,7 @@ body footer {
   background-color: #161616;
   display: flex;
   padding: 0;
+  position: relative;
 }
 
 .aboutme__body {
@@ -293,6 +294,18 @@ body footer {
   justify-content: center;
   font-size: calc(13px + 23 * (100vw / 1920));
   padding: 0px 10px;
+}
+
+.aboutme_title {
+  position: absolute;
+  font-weight: 700;
+  font-size: calc(90px + 212 * (100vw / 1920));
+  display: flex;
+  color: rgba(180, 180, 180, 0.15);
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .aboutme__text1 {
