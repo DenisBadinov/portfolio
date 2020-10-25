@@ -383,7 +383,7 @@
   }
 
   .aboutme_title {
-    font-size: calc(75px + (212 + 212 * 0.7) * (100vw / 1920));
+    font-size: calc(70px + (200 + 200 * 0.7) * (100vw / 1920));
   }
 }
 
