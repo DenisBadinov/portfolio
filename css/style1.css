@@ -299,7 +299,7 @@ body footer {
 .aboutme_title {
   position: absolute;
   font-weight: 700;
-  font-size: calc(80px + 212 * (100vw / 1920));
+  font-size: calc(75px + 212 * (100vw / 1920));
   display: flex;
   color: rgba(180, 180, 180, 0.15);
   z-index: 0;
