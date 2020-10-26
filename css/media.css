@@ -108,6 +108,18 @@
   .aboutme__body {
     max-width: 1023px;
   }
+
+  .contact_block {
+    margin: 0 4.1666666%;
+  }
+
+  .contact_block a {
+    padding: 250px 0;
+  }
+
+  .Blog a {
+    padding: calc(250px - 35px / 2) 0;
+  }
 }
 
 /*===============================================*/
@@ -156,6 +168,18 @@
   .aboutme__body {
     max-width: 849px;
   }
+
+  .contact_block {
+    margin: 0 0.83333333%;
+  }
+
+  .contact_block a {
+    padding: 200px 0;
+  }
+
+  .Blog a {
+    padding: calc(200px - 35px / 2) 0;
+  }
 }
 
 /*===============================================*/
@@ -195,6 +219,18 @@
 
   .aboutme__body {
     max-width: 768px;
+  }
+
+  .contact_block {
+    margin: 0 2.5%;
+  }
+
+  .contact_block a {
+    padding: 200px 0;
+  }
+
+  .Blog a {
+    padding: calc(200px - 35px / 2) 0;
   }
 }
 
