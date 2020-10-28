@@ -181,7 +181,7 @@ body footer {
 }
 
 .header_cap_column3 {
-  flex: 0 1 35%;
+  flex: 0 1 32.5%;
 }
 
 .header_cap_column4 {
@@ -338,7 +338,7 @@ body footer {
 }
 
 .contact__title {
-  margin-bottom: 6%;
+  margin-bottom: 100px;
   color: #000;
   font-size: calc(20px + 20 * (100vw / 1920));
 }

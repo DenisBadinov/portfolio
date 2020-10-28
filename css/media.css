@@ -110,7 +110,7 @@
   }
 
   .contact_block {
-    margin: 0 4.1666666%;
+    margin: 0 2.5%;
   }
 
   .contact_block a {
@@ -174,11 +174,11 @@
   }
 
   .contact_block a {
-    padding: 200px 0;
+    padding: 210px 0;
   }
 
   .Blog a {
-    padding: calc(200px - 35px / 2) 0;
+    padding: calc(210px - 35px / 2) 0;
   }
 }
 
@@ -222,7 +222,7 @@
   }
 
   .contact_block {
-    margin: 0 2.5%;
+    margin: 0 0.83333333%;
   }
 
   .contact_block a {
@@ -418,8 +418,38 @@
     font-size: calc(14px + (23 + 23 * 0.7) * (100vw / 1920));
   }
 
-  .aboutme_title {
-    font-size: calc(70px + (200 + 200 * 0.7) * (100vw / 1920));
+  .contact__main {
+    display: flex;
+    text-align: center;
+  }
+
+  .contact_block {
+    flex: 0 0 20%;
+    margin: 0 auto;
+  }
+
+  .contact_block a {
+    display: block;
+    font-size: 24px;
+    padding: 0 0;
+    width: 64px;
+    height: 64px;
+  }
+
+  .contact_block p {
+    display: none;
+  }
+
+  .VK a {
+    background: url(../img/Vk.com_icon-icons.com_55781.svg) center / cover no-repeat;
+  }
+
+  .INST a {
+    background: url(../img/instagram_black_logo_icon_147122\\(1\).svg) center / cover no-repeat;
+  }
+
+  .Blog a {
+    background: url(../img/arroworpaperplaneshapeinblackcircularbutton_104768.svg) center / cover no-repeat;
   }
 }
 
