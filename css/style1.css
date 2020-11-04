@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*=====<ПОДКЛЮЧАЕМ ШРИФТЫ>===================================*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&display=swap");
 /*=====</ПОДКЛЮЧАЕМ ШРИФТЫ>==================================*/
 
 ::-webkit-scrollbar {
@@ -127,6 +128,8 @@ body footer {
   border-top: 10px solid #5ca0f0;
   line-height: 60px;
   height: 60px;
+  transition: all 0.3s;
+  font-family: "Open Sans", sans-serif;
 }
 
 #logo__link:hover {
@@ -206,6 +209,7 @@ body footer {
 .text p {
   margin: 0px;
   font-size: calc(13px + 22 * (100vw / 1920));
+  font-family: "Open Sans", sans-serif;
 }
 
 .listay {
@@ -289,7 +293,7 @@ body footer {
 .aboutme__body {
   flex: 1 1 auto;
   width: 100%;
-  max-width: 1720px;
+  max-width: 1440px;
   margin: 0 auto;
   text-align: center;
   display: flex;
@@ -297,6 +301,7 @@ body footer {
   justify-content: center;
   font-size: calc(13px + 23 * (100vw / 1920));
   padding: 0px 10px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .aboutme_title {
@@ -347,6 +352,7 @@ body footer {
   margin-bottom: 100px;
   color: #000;
   font-size: calc(24px + 20 * (100vw / 1920));
+  font-family: "Oswald", sans-serif;
 }
 
 .contact__main {

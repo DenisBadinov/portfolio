@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="css/style1.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Портфолио начинающего программиста</title>
@@ -34,16 +35,16 @@
 
                 </span>
               </div>
-              <nav class="header_cap_navigation_menu">
+              <nav class="header_cap_navigation_menu" id="header_cap_navigation_menu">
                 <ul class="header_cap_navigation_menu_menu__list">
                   <li class="header_cap_navigation_menu_job">
-                    <a href="#" class="menu__link" id="job">Работы</a>
+                    <a href="#slider-section" class="menu__link" id="job">Работы</a>
                   </li>
                   <li class="header_cap_navigation_menu_aboutme">
-                    <a href="#" class="menu__link" id="about_me">Обо мне</a>
+                    <a href="#aboutme_section" class="menu__link" id="about_me">Обо мне</a>
                   </li>
                   <li class="header_cap_navigation_menu_contacts">
-                    <a href="#" class="menu__link" id="contacts">Контакты</a>
+                    <a href="#contact_section" class="menu__link" id="contacts">Контакты</a>
                   </li>
                 </ul>
               </nav>
@@ -78,7 +79,7 @@
   </header>
   <section id="slider-section">
     <div class="container_slider">
-      <div class="slider">
+      <div class="slider" data-aos="zoom-in">
         <div class="slider_item">
           <a href="index3.html" target="_blank"><img data-lazy="img/00001.webp" alt=""></a>
         </div>
@@ -138,8 +139,8 @@
         </div>
       </div>
 
-      <div id="all_projects">
-        <a href="index2.html" data-aos="zoom-in">Посмотреть все работы &#8594;</a>
+      <div id="all_projects" data-aos="zoom-in">
+        <a href="index2.html">Посмотреть все работы &#8594;</a>
       </div>
     </div>
   </section>
@@ -168,10 +169,10 @@
   <div class="wrapper2">
     <section id="contact_section">
       <div class="contact__body">
-        <div class="contact__title">
+        <div class="contact__title" data-aos="zoom-in">
           Как со мной связаться?
         </div>
-        <div class="contact__main">
+        <div class="contact__main" data-aos="zoom-in">
           <div class="contact_block">
             <div class="VK">
               <a href="https://vk.com/dbadinov" target="_blank">
@@ -189,7 +190,7 @@
           <div class="contact_block">
             <div class="Blog">
               <a href="#" target="_blank" onclick="return false">
-                <p>Blog coming soon..</p>
+                <p>Blog coming soon.. </p>
               </a>
             </div>
           </div>
