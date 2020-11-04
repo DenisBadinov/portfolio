@@ -51,6 +51,10 @@
   }
 
   /* < /header >*/
+
+  .contact_block {
+    margin: 0 2.5%;
+  }
 }
 
 /*===============================================*/
@@ -110,16 +114,9 @@
   }
 
   .contact_block {
-    margin: 0 2.5%;
+    margin: 0 1.5%;
   }
 
-  .contact_block a {
-    padding: 250px 0;
-  }
-
-  .Blog a {
-    padding: calc(250px - 35px / 2) 0;
-  }
 }
 
 /*===============================================*/
@@ -172,14 +169,6 @@
   .contact_block {
     margin: 0 0.83333333%;
   }
-
-  .contact_block a {
-    padding: 210px 0;
-  }
-
-  .Blog a {
-    padding: calc(210px - 35px / 2) 0;
-  }
 }
 
 /*===============================================*/
@@ -220,19 +209,6 @@
   .aboutme__body {
     max-width: 768px;
   }
-
-  .contact_block {
-    margin: 0 0.83333333%;
-  }
-
-  .contact_block a {
-    padding: 200px 0;
-  }
-
-  .Blog a {
-    padding: calc(200px - 35px / 2) 0;
-  }
-}
 
 /*===============================================*/
 
@@ -484,6 +460,10 @@
   .Blog a {
     background: url(../img/arroworpaperplaneshapeinblackcircularbutton_104768.svg) center / cover no-repeat;
     margin: 0 auto;
+  }
+
+  .footer__section{
+    padding: 20px 10px;
   }
 }
 

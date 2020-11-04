@@ -101,11 +101,12 @@
     background-color: #161616;
     border-radius: 50%;
     border: 2px solid #161616;
+    padding: 0px;
 }
 
 .slick-dots .slick-active button {
     background-color: #f0f0f0;
-    border: 2px solid #161616;
+    border: 3px solid #161616;
 }
 
 /*===*/

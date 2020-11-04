@@ -71,7 +71,7 @@ body footer {
   max-width: 1320px;
   height: 100%;
   margin: 0 auto;
-  padding: 0px 40 0px 40px;
+  padding: 0px 40px;
 }
 
 .header_cap {
@@ -84,13 +84,13 @@ body footer {
   align-items: center;
 }
 
+.header_cap_column1 {
+  flex: 0 1 50%;
+}
+
 .header_cap_logo {
   position: relative;
   z-index: 1;
-}
-
-.header_cap_column1 {
-  flex: 0 1 50%;
 }
 
 .header_cap_column2 {
@@ -340,7 +340,7 @@ body footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0px 10px;
+  padding: 20px 10px;
 }
 
 .contact__title {
@@ -360,29 +360,70 @@ body footer {
 }
 
 .contact_block a {
-  padding: 300px 0;
   display: block;
   font-size: calc(24px + 6 * (100vw / 1920));
+  /* Фильтр на фото */
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.contact_block a:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none;
+  transition: all 0.3s;
 }
 
 .contact_block p {
-  padding: 0;
   margin: 0;
+  padding: 60% 0;
+  opacity: 0;
+  transition: 0.5s ease;
+  left: 0;
+  top: 0;
+}
+
+.contact_block p:hover {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 5;
 }
 
 .VK a {
-  background: url(../img/VK1.jpg) center / cover no-repeat;
+  background: url(../img/VK1.jpg) no-repeat;
+  background-size: cover;
 }
 
 .INST a {
-  background: url(../img/Instagram1.jpg) center / cover no-repeat;
+  background: url(../img/Instagram1.jpg) no-repeat;
+  background-size: cover;
 }
 
 .Blog a {
-  background: url(../img/Blog1.jpg) center / cover no-repeat;
-  padding: calc(300px - 35px / 2) 0;
+  background: url(../img/Blog1.jpg) no-repeat;
+  background-size: cover;
 }
 
-main {
-  height: 3000px;
+footer {
+  background-color: #161616;
+}
+
+.footer__section {
+  padding: 20px 40px;
+}
+
+.footer__body {
+  display: flex;
+  justify-content: space-between;
 }
