@@ -3,6 +3,10 @@ $(document).ready(function () {
     $('.burger__menu, .header_cap_navigation_menu_menu__list').toggleClass('active');
     $('body').toggleClass('lock');
   });
+  $('.menu__link').click(function () {
+    $('.burger__menu, .header_cap_navigation_menu_menu__list').removeClass('active');
+    $('body').removeClass('lock');
+  });
 });
 
 
@@ -88,13 +92,24 @@ $(document).ready(function () {
 
 //Плавный скролл до объекта
 $(document).ready(function () {
-  $("#menu").on("click", "a", function (event) {
-    event.preventDefault();
-    var id = $(this).attr('href'),
-      top = $(id).offset().top;
-    $('body,html').animate({ scrollTop: top }, 1200);
-  });
+  var mql = window.matchMedia('all and (max-width: 768px)');
+  if (mql.matches) {
+    $("#header_cap_navigation_menu").on("click", "a", function (event) {
+      event.preventDefault();
+      var id = $(this).attr('href'),
+        top = $(id).offset().top - 70;
+      $('body,html').animate({ scrollTop: top }, 1200);
+    }); // размер окна 768px или меньше
+  } else {
+    $("#header_cap_navigation_menu").on("click", "a", function (event) {
+      event.preventDefault();
+      var id = $(this).attr('href'),
+        top = $(id).offset().top;
+      $('body,html').animate({ scrollTop: top }, 1200);
+    }); // иначе, если размер окна более 768px 
+  }
 });
+
 //----------------
 
 //Функция кнопки "Вверх"
@@ -142,7 +157,7 @@ AOS.init({
 
 
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 90, // offset (in px) from the original trigger point
+  offset: 80, // offset (in px) from the original trigger point
   delay: 0, // values from 0 to 3000, with step 50ms
   duration: 1000, // values from 0 to 3000, with step 50ms
   easing: 'ease', // default easing for AOS animations
