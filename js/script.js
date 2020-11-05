@@ -115,30 +115,37 @@ $(document).ready(function () {
 //Функция кнопки "Вверх"
 (function ($) {
   $(function () {
+    $('#up2').click(function () {
+      $('body,html').animate({ scrollTop: 0 }, 700);
+      return false;
+    })
+  })
+})(jQuery);
 
+(function ($) {
+  $(function () {
     $('#up').click(function () {
       $('body,html').animate({ scrollTop: 0 }, 700);
       return false;
     })
-
   })
 })(jQuery);
 //----------------
 
 
 $(document).ready(function () {
-  var typed = new Typed('.hii', {
-    strings: ["Привет !", "Hi !", "Halo !", "Прывітанне !", "こんにちは !", "Bonjour !"],
-    typeSpeed: 60,
+  var typed = new Typed('.coopr', {
+    strings: ["dbadinov@mail.ru", "DenisBadinov"],
+    typeSpeed: 80,
     backSpeed: 50,
     loop: true
   });
 });
 
 $(document).ready(function () {
-  var typed = new Typed('.coopr', {
-    strings: ["dbadinov@mail.ru", "DenisBadinov"],
-    typeSpeed: 80,
+  var typed = new Typed('.hii', {
+    strings: ["Привет !", "Hi !", "Halo !", "Прывітанне !", "こんにちは !", "Bonjour !"],
+    typeSpeed: 60,
     backSpeed: 50,
     loop: true
   });

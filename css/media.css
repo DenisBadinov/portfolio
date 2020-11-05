@@ -173,12 +173,40 @@
 
 /*===============================================*/
 
+@media (max-width: 1024px) {
+  .project__main p {
+    margin: 0;
+    padding: 24% 0;
+    opacity: 1;
+    transition: 0.5s ease;
+    left: 0;
+    top: 0;
+    font-size: calc(16px + 15 * (100vw / 1920));
+  }
+  
+  .project__main p:hover {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 5;
+  }
+  
+  .pr01 a {
+    background-color: #161616;
+  }
+  
+  .a404 a {
+    background-color: #161616;
+  }
+}
+
+/*===============================================*/
+
 @media (max-width: 848px) {
   .container {
     max-width: 768px;
     height: 100%;
     margin: 0 auto;
-    padding: 0px 20px;
+    padding: 0px 15px;
   }
 
   .header_cap {
