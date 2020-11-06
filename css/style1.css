@@ -43,6 +43,11 @@ h2 {
   padding: 0px 0px 0px 0px;
 }
 
+p {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
 body {
   height: 100%;
   margin: 0px auto;
@@ -52,18 +57,18 @@ body {
   color: #f0f0f0;
 }
 
-body header {
+header {
   height: 100%;
   background-color: #161616;
   height: 100vh;
   padding: 0px 0px 0px 0px;
 }
 
-body main {
+main {
   background-color: #f0f0f0;
 }
 
-body footer {
+footer {
   background-color: #161616;
 }
 
@@ -206,7 +211,6 @@ body footer {
 }
 
 .text p {
-  margin: 0px;
   font-size: calc(13px + 22 * (100vw / 1920));
   font-family: "Open Sans", sans-serif;
 }
@@ -223,8 +227,6 @@ body footer {
 }
 
 .listay p {
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
   background: url("../img/animated_bg.png") repeat-y;
   -webkit-background-clip: text;
   background-clip: text;
@@ -418,10 +420,6 @@ body footer {
 .Blog a {
   background: url(../img/Blog1.jpg) no-repeat;
   background-size: cover;
-}
-
-footer {
-  background-color: #161616;
 }
 
 .footer__section {

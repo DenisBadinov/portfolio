@@ -1,6 +1,9 @@
 /*===============================================*/
 
 @media (min-width: 4000px) {
+
+  /* < header >*/
+
   .bigD {
     /*font-size: 400px;*/
     font-size: 670px;
@@ -14,6 +17,8 @@
   .text p {
     font-size: 56px;
   }
+
+  /* < /header >*/
 }
 
 /*===============================================*/
@@ -221,8 +226,6 @@
 @media (max-width: 848px) {
   .container {
     max-width: 768px;
-    height: 100%;
-    margin: 0 auto;
     padding: 0px 15px;
   }
 
@@ -247,7 +250,6 @@
 
   .menu__link {
     height: 45px;
-    font-size: 22px;
     line-height: 45px;
   }
 
@@ -260,8 +262,6 @@
 @media (max-width: 768px) {
   .container {
     max-width: 728px;
-    height: 100%;
-    margin: 0 auto;
   }
 
   .burger__menu {
@@ -389,7 +389,6 @@
   }
 
   .bigD {
-    font-size: calc(150px + (250 + 250 * 0.7) * ((100vw - 320px) / 1920));
     display: none;
   }
 
@@ -539,7 +538,7 @@
   }
 
   .header__title{
-    padding: 25px 12px 10px 12px;
+    padding: 15px 12px 10px 12px;
     font-size: calc(10px + (20 + 20 * 0.7) * (100vw / 1920));
   }
 
