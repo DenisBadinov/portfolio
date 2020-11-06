@@ -167,6 +167,8 @@ main {
 .wrapper2 {
   display: flex;
   flex-direction: column;
+  max-width: 1800px;
+  margin: 0 auto;
 }
 
 #project_section {
@@ -177,7 +179,7 @@ main {
 
 .project__body {
   flex: 1 1 auto;
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   text-align: center;
   display: flex;
@@ -192,12 +194,12 @@ main {
   margin-bottom: 20px;
 }
 
-.contact_block {
+.project_block {
   flex: 1 1 50%;
-  margin: 0 5%;
+  margin: 0 1%;
 }
 
-.contact_block a {
+.project_block a {
   display: block;
 }
 
