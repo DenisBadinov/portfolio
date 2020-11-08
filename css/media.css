@@ -179,6 +179,11 @@
 /*===============================================*/
 
 @media (max-width: 1024px) {
+  .container {
+    max-width: 849px;
+    padding: 0px 15px;
+  }
+
   #project_section {
     display: block;
   }
@@ -218,7 +223,6 @@
     background-color: #161616;
   }
 
-  
 }
 
 /*===============================================*/
@@ -403,7 +407,7 @@
 
   .listay {
     bottom: 75px;
-    font-size: calc(11px + (6 + 6 * 0.7) * ((100vw - 320px) / 1920));
+    font-size: calc(10px + (6 + 6 * 0.7) * ((100vw - 320px) / 1920));
   }
 
   #slider-section {
@@ -555,5 +559,14 @@
     line-height: 52px;
     height: 52px;
   }
+}
 
 /*===============================================*/
+
+@media (max-height: 500px) {
+
+  .listay {
+    bottom: 0px;
+  }
+
+  }
