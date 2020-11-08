@@ -371,10 +371,6 @@
     z-index: 1;
   }
 
-  body.lock {
-    overflow: hidden;
-  }
-
   .fiiirst {
     width: 100%;
   }

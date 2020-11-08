@@ -1,11 +1,11 @@
 $(document).ready(function () {
   $('.burger__menu').click(function (event) {
     $('.burger__menu, .header_cap_navigation_menu_menu__list').toggleClass('active');
-    $('body').toggleClass('lock');
+    $('body').toggleClass('loading');
   });
   $('.menu__link').click(function () {
     $('.burger__menu, .header_cap_navigation_menu_menu__list').removeClass('active');
-    $('body').removeClass('lock');
+    $('body').removeClass('loading');
   });
 });
 
@@ -70,3 +70,8 @@ AOS.init({
 
 });
 
+$(window).load(function () {
+  $(".preloader").delay(500).fadeOut(500, function () {
+    $('html').removeClass('loading');
+  });
+});

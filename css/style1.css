@@ -408,17 +408,17 @@ footer {
 }
 
 .VK a {
-  background: url(../img/VK1.jpg) no-repeat;
+  background: url(../img/VK1.webp) no-repeat;
   background-size: cover;
 }
 
 .INST a {
-  background: url(../img/Instagram1.jpg) no-repeat;
+  background: url(../img/Instagram1.webp) no-repeat;
   background-size: cover;
 }
 
 .Blog a {
-  background: url(../img/Blog1.jpg) no-repeat;
+  background: url(../img/Blog1.webp) no-repeat;
   background-size: cover;
 }
 
@@ -429,4 +429,8 @@ footer {
 .footer__body {
   display: flex;
   justify-content: space-between;
+}
+
+.loading {
+  overflow: hidden;
 }
